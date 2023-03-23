@@ -9,7 +9,7 @@ trigger:
     paths:
         - /chatendpoint
 execution:
-    timeout: 1m
+    timeout: 1s
     memory: 10MB
     call: chatendpoint
 source: inline
