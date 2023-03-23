@@ -6,7 +6,7 @@ tags:
 local: false
 channel:
     regex: false
-    match: /chat
+    match: chat
 bridges:
     mqtt:
         enable: false
