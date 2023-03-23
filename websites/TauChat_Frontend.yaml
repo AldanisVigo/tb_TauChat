@@ -10,5 +10,5 @@ source:
         - /
     branch: master
     github:
-        id: "616208869"
+        id: 616208869
         fullname: AldanisVigo/tb_website_TauChat_Frontend
