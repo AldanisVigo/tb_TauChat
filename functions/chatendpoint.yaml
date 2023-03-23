@@ -1,0 +1,17 @@
+id: QmTpxk71xH3aLDUwsGARXqVueCdFKKCsLbM3mDKJxDhPWS
+description: Endpoint to get the chat's web socket url
+tags:
+    - chatendpoint
+    - websocketgen
+trigger:
+    type: http
+    method: POST
+    paths:
+        - /chatendpoint
+execution:
+    timeout: 1m
+    memory: 10MB
+    call: chatendpoint
+source: inline
+domains:
+    - generated

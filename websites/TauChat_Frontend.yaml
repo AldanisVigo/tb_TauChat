@@ -1,0 +1,14 @@
+id: QmTcP2F616xSrngkd9fDEDZqhCVEM2GgRLR4SpkVq4n6Pk
+description: This is the frontend for our chat application using TauByte
+tags:
+    - tauchat
+    - frontend
+domains:
+    - generated
+source:
+    paths:
+        - /
+    branch: master
+    github:
+        id: "616208869"
+        fullname: AldanisVigo/tb_website_TauChat_Frontend

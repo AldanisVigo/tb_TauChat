@@ -1,0 +1,14 @@
+id: QmQNWAhF1MdCuNxLvu28meLmnQ9wtNpnu15nE4v8TuVBxh
+description: Chat pubsub channel
+tags:
+    - tauchat
+    - pubsub
+local: false
+channel:
+    regex: true
+    match: /chat
+bridges:
+    mqtt:
+        enable: false
+    websocket:
+        enable: true
