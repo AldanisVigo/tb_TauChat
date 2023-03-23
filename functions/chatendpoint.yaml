@@ -3,15 +3,15 @@ description: Endpoint to get the chat's web socket url
 tags:
     - chatendpoint
     - websocketgen
+source: .
 trigger:
     type: http
     method: POST
     paths:
         - /chatendpoint
+domains:
+    - generated
 execution:
     timeout: 1s
     memory: 10MB
     call: chatendpoint
-source: inline
-domains:
-    - generated
