@@ -1,0 +1,17 @@
+id: QmPNxLqqnmjHfMe96Z3oUUVb9FUkFtsqkfsQDRYSk5HDzs
+description: tauchat endpoint
+tags:
+    - tauchat
+    - endpoint
+trigger:
+    type: http
+    method: POST
+    paths:
+        - /tauchatendpoint
+execution:
+    timeout: 1m
+    memory: 60MB
+    call: /tauchatendpoint
+source: inline
+domains:
+    - generated

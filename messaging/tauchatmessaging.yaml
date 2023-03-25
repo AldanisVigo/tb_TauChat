@@ -1,0 +1,14 @@
+id: Qmeej1nWe97JvkZTy8u3i2w15VJXUWF3FdZtTBxtrQ1nZm
+description: tauchat messaging
+tags:
+    - tauchat
+    - messaging
+local: false
+channel:
+    regex: false
+    match: chat
+bridges:
+    mqtt:
+        enable: false
+    websocket:
+        enable: true
