@@ -12,5 +12,7 @@ execution:
     timeout: 1m
     memory: 60MB
     call: /tauchatendpoint
+source: .
 domains:
     - generated
+
