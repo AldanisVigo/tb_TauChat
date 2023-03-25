@@ -12,8 +12,6 @@ trigger:
 domains:
     - generated
 execution:
-    timeout: 1m
+    timeout: 60s
     memory: 60MB
     call: tauchatendpoint
-
-
