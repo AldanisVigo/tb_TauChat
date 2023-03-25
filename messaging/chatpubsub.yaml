@@ -5,7 +5,7 @@ tags:
     - pubsub
 local: false
 channel:
-    regex: true
+    regex: false
     match: /chat
 bridges:
     mqtt:
