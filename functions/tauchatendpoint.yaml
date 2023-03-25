@@ -3,15 +3,15 @@ description: tauchat endpoint
 tags:
     - tauchat
     - endpoint
+source: .
 trigger:
     type: http
     method: POST
     paths:
         - /tauchatendpoint
-execution:
-    timeout: 1m
-    memory: 60MB
-    call: /tauchatendpoint
-source: inline
 domains:
     - generated
+execution:
+    timeout: 60s
+    memory: 60MB
+    call: /tauchatendpoint
